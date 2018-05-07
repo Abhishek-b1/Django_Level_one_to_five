@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+    {% block body_block %}
+        <h1>Hello!</h1>
+        <h2>I am from index.html</h2>
+        <h1>{{ text|cut:'world' }}</h1>
+        <!--<h1>{{ text|upper }}</h1>-->
+        <!--python filters to raise all letters in text key in upper case-->
+        <h1>{{ number|add:"99" }}</h1>
+        <!--the add filter add the number with existing one-->
+    {% endblock %}
+
+
