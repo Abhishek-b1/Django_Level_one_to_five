@@ -1,5 +1,4 @@
 # Django_Level_one_to_five
-# The L1 and L2 are from based on basics like url mapping, creating templates etc and model creation
-# The L3 folder I will upload as soon as I seperate lecturewise.
-# The bootstrap folder covers all the HTML and CSS + bootstrap exercise.
-# The assignment folder contains the assignment solution and its output files in .css and .xlxs format
+# The first folder Assignment contains the weather data parser assignment with the outputs in .csv and .xlsx format
+# L1-L3 contains the programs systematically arranged according to Lectures of Django level 1 to 3.
+# The bootstrap folder summerises the HTML, css and bootstrap excercise.
