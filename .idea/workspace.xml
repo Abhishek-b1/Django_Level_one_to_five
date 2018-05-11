@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0390ec5e-bda1-4d03-8ce4-b78cb083a306" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/learning_users/basic_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/basic_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/learning_users/basic_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/basic_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L5/learning_users/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/learning_users/learning_users/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/learning_users/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/learning_users/learning_users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/learning_users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/learning_users/template/basic_app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/template/basic_app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,20 +23,26 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+            <state relative-caret-position="616">
+              <caret line="141" column="16" lean-forward="true" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/models.py">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="418">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -44,20 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="361">
+              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -77,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L1/ProFiveTempChallenge/AppFive/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -89,11 +92,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/migrations/0001_initial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="494">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#648#689#0" expanded="true" />
               </folding>
@@ -104,22 +116,10 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="152">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,17 +160,17 @@
         <option value="$PROJECT_DIR$/L4/learning_templates_filters/basic_app/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/L4/learning_templates_filters/basic_app/templatetags/my_extras.py" />
         <option value="$PROJECT_DIR$/L4/learning_templates_filters/template/basic_app/index.html" />
-        <option value="$PROJECT_DIR$/L5/learning_users/learning_users/settings.py" />
         <option value="$PROJECT_DIR$/L5/learning_users/basic_app/admin.py" />
-        <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html" />
-        <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/base.html" />
         <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/index.html" />
         <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html" />
+        <option value="$PROJECT_DIR$/L5/learning_users/basic_app/models.py" />
+        <option value="$PROJECT_DIR$/L5/learning_users/basic_app/forms.py" />
+        <option value="$PROJECT_DIR$/L5/learning_users/learning_users/settings.py" />
+        <option value="$PROJECT_DIR$/L5/learning_users/basic_app/views.py" />
         <option value="$PROJECT_DIR$/L5/learning_users/learning_users/urls.py" />
         <option value="$PROJECT_DIR$/L5/learning_users/basic_app/urls.py" />
-        <option value="$PROJECT_DIR$/L5/learning_users/basic_app/models.py" />
-        <option value="$PROJECT_DIR$/L5/learning_users/basic_app/views.py" />
-        <option value="$PROJECT_DIR$/L5/learning_users/basic_app/forms.py" />
+        <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/base.html" />
+        <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html" />
       </list>
     </option>
   </component>
@@ -202,6 +202,21 @@
               <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
               <item name="L5" type="462c0819:PsiDirectoryNode" />
               <item name="learning_users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
+              <item name="L5" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
+              <item name="L5" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_app" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
@@ -288,11 +303,26 @@
       <option name="project" value="LOCAL" />
       <updated>1525778953911</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating Level 5, 0001_initial.py file and __init__.py file">
+      <created>1526017747832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526017747832</updated>
+    </task>
+    <task id="LOCAL-00005" summary="login.html file">
+      <created>1526019529485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526019529485</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -320,7 +350,9 @@
     <MESSAGE value="Adding Level 4 form Lectures" />
     <MESSAGE value="Adding Level 5 form Lectures" />
     <MESSAGE value="&#10;Updating Level 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Updating Level 5" />
+    <MESSAGE value="Updating Level 5, 0001_initial.py file and __init__.py file" />
+    <MESSAGE value="login.html file" />
+    <option name="LAST_COMMIT_MESSAGE" value="login.html file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/settings.py">
@@ -558,27 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -589,47 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#648#689#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,6 +634,71 @@
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="141" column="16" lean-forward="true" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#648#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
