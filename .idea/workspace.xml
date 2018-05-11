@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0390ec5e-bda1-4d03-8ce4-b78cb083a306" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Class_based_view/adv_cbv/template/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_based_view/adv_cbv/template/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L5/learning_users/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,106 +16,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/settings.py">
+        <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="141" column="16" lean-forward="true" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+            <state relative-caret-position="76">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="76">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/basic_app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#641#673#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/base.html">
+        <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/template/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L1/ProFiveTempChallenge/AppFive/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/migrations/0001_initial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#74#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#648#689#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -125,8 +71,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -166,6 +112,12 @@
         <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/login.html" />
         <option value="$PROJECT_DIR$/L5/learning_users/basic_app/views.py" />
         <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html" />
+        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/settings.py" />
+        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/urls.py" />
+        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/template/base.html" />
+        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/template/index" />
+        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/basic_app/views.py" />
+        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/template/index.html" />
       </list>
     </option>
   </component>
@@ -190,57 +142,34 @@
             <path>
               <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
+              <item name="Class_based_view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
+              <item name="Class_based_view" type="462c0819:PsiDirectoryNode" />
+              <item name="adv_cbv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
+              <item name="Class_based_view" type="462c0819:PsiDirectoryNode" />
+              <item name="adv_cbv" type="462c0819:PsiDirectoryNode" />
+              <item name="adv_cbv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
+              <item name="Class_based_view" type="462c0819:PsiDirectoryNode" />
+              <item name="adv_cbv" type="462c0819:PsiDirectoryNode" />
               <item name="basic_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
-              <item name="basic_app" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
+              <item name="Class_based_view" type="462c0819:PsiDirectoryNode" />
+              <item name="adv_cbv" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Level_one_to_five" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Level_one_to_five" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
-              <item name="learning_users" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="basic_app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526022859271</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final update of level 5">
+      <created>1526023952485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1526023952485</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,7 +291,8 @@
     <MESSAGE value="Updating Level 5, 0001_initial.py file and __init__.py file" />
     <MESSAGE value="login.html file" />
     <MESSAGE value="updating other files" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating other files" />
+    <MESSAGE value="Final update of level 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final update of level 5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/settings.py">
@@ -630,36 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L1/ProFiveTempChallenge/AppFive/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#648#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#74#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -681,13 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/urls.py">
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -701,10 +605,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html">
+    <entry file="file://$PROJECT_DIR$/L1/ProFiveTempChallenge/AppFive/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#74#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#648#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L5/learning_users/basic_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/template/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/basic_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/template/index">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
