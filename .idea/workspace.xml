@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0390ec5e-bda1-4d03-8ce4-b78cb083a306" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Class_based_view/adv_cbv/template/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_based_view/adv_cbv/template/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0390ec5e-bda1-4d03-8ce4-b78cb083a306" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +20,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -37,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/basic_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -45,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
@@ -113,11 +109,11 @@
         <option value="$PROJECT_DIR$/L5/learning_users/basic_app/views.py" />
         <option value="$PROJECT_DIR$/L5/learning_users/template/basic_app/registration.html" />
         <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/settings.py" />
-        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/urls.py" />
         <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/template/base.html" />
         <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/template/index" />
-        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/basic_app/views.py" />
         <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/template/index.html" />
+        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/urls.py" />
+        <option value="$PROJECT_DIR$/Class_based_view/adv_cbv/basic_app/views.py" />
       </list>
     </option>
   </component>
@@ -255,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526023952485</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Class based view initiated">
+      <created>1526031387013</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1526031387013</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -292,7 +295,8 @@
     <MESSAGE value="login.html file" />
     <MESSAGE value="updating other files" />
     <MESSAGE value="Final update of level 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final update of level 5" />
+    <MESSAGE value="Class based view initiated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class based view initiated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/L5/learning_users/learning_users/settings.py">
@@ -645,30 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#641#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/template/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/basic_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,6 +674,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/basic_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_based_view/adv_cbv/adv_cbv/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
