@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.views.generic import (View, TemplateView, ListView, DetailView, CreateView, UpdateView)
+from django.core.urlresolvers import reverse_lazy
+from django.views.generic import (View, TemplateView, ListView, DetailView, CreateView, UpdateView, DeleteView)
 from . import models
 
 
@@ -32,6 +33,11 @@ class SchoolCreateView(CreateView):
 class SchoolUpdateView(UpdateView):
     fields = ('name', 'principle')    # Here we are updating name and principle of the school.
     model = models.School
+
+
+class SchoolDeleteView(DeleteView):
+    model = models.School
+    success_url = reverse_lazy("basic_app:list")
 
 
 
