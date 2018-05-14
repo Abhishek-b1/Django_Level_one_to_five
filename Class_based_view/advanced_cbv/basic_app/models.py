@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.core.urlresolvers import reverse
 # Create your models here.
 
 
@@ -10,6 +10,9 @@ class School(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):   # Here we are telling what primary key the school returned with.
+        return reverse("basic_app:detail", kwargs={'pk': self.pk})
 
 
 class Student(models.Model):

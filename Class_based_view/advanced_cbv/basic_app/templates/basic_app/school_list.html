@@ -3,7 +3,9 @@
 <h1>Welcome to a list of all the schools!</h1>
     <ol>
         {% for school in schools %}
-            <h2><li><a href="{{school.id}}">{{school.name}}</a></li></h2>
+        <!--When someone comes to  school list page and clicks on school name in that list view href returns the single
+        number that corresponds to primary key or pk-->
+            <h2><li><a href={{school.id}}>{{school.name}}</a></li></h2>
         {% endfor %}
     </ol>
 

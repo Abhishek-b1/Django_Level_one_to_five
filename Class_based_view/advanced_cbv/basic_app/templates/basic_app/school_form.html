@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends 'basic_app/basic_app_base.html' %}
+{% block body_block %}
+
+    <h1>
+        {% if not form.instance.pk %}   <!---the heading of the form page is going to check if the instance of the
+        primary key exists or not and if it does not exist it is going to Create School (creating the new school)
+        otherwise update the school --->
+        Create School
+        {% else %}
+        Update School
+        {% endif %}
+    </h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+
+{% endblock %}
+
+
