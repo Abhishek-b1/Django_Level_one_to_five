@@ -7,6 +7,13 @@
         <p>Name: {{school_detail.name}}</p>
         <p>Principle: {{ school_detail.principle }}</p>
         <p>Location: {{ school_detail.location }}</p>
+        <h3>Students: </h3>
+
+        {% for student in school_detail.students.all %}
+        <!---Here school_detail is coming from views.py context and .students is coming from models.py from Student
+        class in which the foreign key is students--->
+            <p>{{ student.name }} who is {{ student.age }} years old.</p>
+        {% endfor %}
     </div>
 {% endblock %}
 

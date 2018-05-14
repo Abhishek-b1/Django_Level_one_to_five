@@ -13,7 +13,8 @@ class IndexView(TemplateView):
 
 class SchoolListView(ListView):
     context_object_name = 'schools'
-    model = models.School        # Every details of list is saved because of ListView
+    model = models.School
+    # Every details of list is saved because of ListView
     # Here the ListView is creating a school list and naming it school_list. In the school_list school is coming from
     # the .School, the ListView is lowering case of .School and renaming it as school_list which can be called in
     # school_list.html in for loop or for other manipulations.
