@@ -63,13 +63,15 @@ class DraftListView(LoginRequiredMixin, ListView):
         return Post.objects.filter(published_date__isnull=True).order_by()  # If the draft has not any publication date.
 
 
-###################################################
+#######################################
+## Functions that require a pk match ##
+#######################################
 
 
 @login_required
 def post_publish(request, pk):
     post = get_object_or_404(Post, pk=pk)
-    post.publish
+    post.publish()
     return redirect('post_detail', pk=pk)
 
 

@@ -39,7 +39,7 @@ class Comment(models.Model):
     post = models.ForeignKey('blog.Post', related_name='comments')
     author = models.CharField(max_length=200)
     text = models.TextField()
-    created_date = models.DateTimeField(default=timezone.now())
+    created_date = models.DateTimeField(default=timezone.now)
     approved_comment = models.BooleanField(default=False)  # default=Fault: Initially the comment is not approved.
     # The approved comment in Post.approved_comment return is same as the above approved_comment
 
