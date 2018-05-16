@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "blog/base.html" %}
+{% block content %}
+    {% for post in posts %}     <!-- Going through all posts -->
+        <div class="post">
+            <p class="date">Created: {{ post.created_date|date: 'd-m-y' }}</p>
+            <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+            <p>{{ post.text|truncatechars:200 }}</p>
 
-</body>
-</html>
+        </div>
+    {% endfor %}
+
+{% endblock %}
