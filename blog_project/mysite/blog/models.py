@@ -24,7 +24,7 @@ class Post(models.Model):
         # The blog creation and publication dates may be different.
 
     def approve_comments(self):
-        return self.comments.filter(approved_comments=True)
+        return self.comments.filter(approved_comment=True)
     # Here among the comments the approved and not approved will separate and approved will appear with the blog.
 
     def get_absolute_url(self):
@@ -39,9 +39,9 @@ class Comment(models.Model):
     post = models.ForeignKey('blog.Post', related_name='comments')
     author = models.CharField(max_length=200)
     text = models.TextField()
-    create_date = models.DateTimeField(default=timezone.now())
+    created_date = models.DateTimeField(default=timezone.now())
     approved_comment = models.BooleanField(default=False)  # default=Fault: Initially the comment is not approved.
-    # The approved comment in Post.approved_comments return is same as the above approved_comment
+    # The approved comment in Post.approved_comment return is same as the above approved_comment
 
     def approve(self):
         self.approved_comment = True

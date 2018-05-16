@@ -10,7 +10,7 @@
     <a class="btn btn-default" href="{% url 'post_publish' pk=post.pk %}">Publish</a>
 {% endif %}
 
-<p class="postcontent">{{ post.title|safe|linebreaksbr }}</p>    <!---We have the post content, make sure it is safe and
+<p class="postcontent">{{ post.text|safe|linebreaksbr }}</p>    <!---We have the post content, make sure it is safe and
  we will have the linebreak--->
 
 {% if user.is_authenticated %}        <!---if the user is authenticated we are going to edit the post therefore
@@ -30,7 +30,7 @@
 <a class="btn btn-primary btn-comment" href="{% url 'add_comment_to_post' pk=post.pk %}">Add Comment</a>
 
 <div class="container">
-    {% for comment in post.comment.all %}      <!--- for all the comments that are linked to the post --->
+    {% for comment in post.comments.all %}      <!--- for all the comments that are linked to the post --->
     <br>
         {% if user.is_authenticated or comment.approved_comment %}
         {{ comment.created_date }}    <!--- show the date of comments --->
