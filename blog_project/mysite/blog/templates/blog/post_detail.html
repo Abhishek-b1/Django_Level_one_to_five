@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'blog/base.html' %}
+{% block content %}
+<h1 class="posttitle loader">{{ post.title }}</h1>   <!---post the title--->
+{% if post.published_date %}         <!---if the post has the publication date--->
+    <div class="date postdate">        <!---start the post date--->
+        {{ post.published_date }}     <!---place the publication date--->
+    </div>
+{% else %}        <!-- else hey you want to publish this you have publish button which will tke to publish page--->
+    <a class="btn btn-default" href="{% url 'post_publish' pk=post.pk %}">Publish</a>
+{% endif %}
 
-</body>
-</html>
+<p class="postcontent">{{ post.title|safe|linebreaksbr }}</p>    <!---We have the post content, make sure it is safe and
+ we will have the linebreak--->
+
+{% if user.is_authenticated %}        <!---if the user is authenticated we are going to edit the post therefore
+    glyphicon-pencil is used--->
+    <a class="btn btn-primary" href="{% url 'post_edit' pk=post.pk %}">
+        <spam class="glyphicon glyphicon-pencil"></spam>
+    </a>
+    <!--- or remove the post --->
+    <a class="btn btn-primary" href="{% url 'post_remove' pk=post.pk %}">
+        <spam class="glyphicon glyphicon-remove"></spam>
+    </a>
+
+{% endif %}
+
+<hr>
+<!--- add comments to the post --->
+<a class="btn btn-primary btn-comment" href="{% url 'add_comment_to_post' pk=post.pk %}">Add Comment</a>
+
+<div class="container">
+    {% for comment in post.comment.all %}      <!--- for all the comments that are linked to the post --->
+    <br>
+        {% if user.is_authenticated or comment.approved_comment %}
+        {{ comment.created_date }}    <!--- show the date of comments --->
+            {% if not comment.approved_comment %}       <!--- if the comments are not approved comments--->
+                <!---either remove the comment--->
+                <a class="btn btn-default" href="{% url 'comment_remove' pk=comment.pk %}">
+                <spam class="glyphicon glyphicon-remove"></spam>
+                </a>
+                <!--- or remove the comment --->
+                <a class="btn btn-primary" href="{% url 'comment_approve' pk=comment.pk %}">
+                <spam class="glyphicon glyphicon-ok"></spam>
+                </a>
+
+            {% endif %}
+
+            <p>{{ comment.text|safe|linebreaks }}</p>
+            <p>Posted By: {{ comment.author }}</p>
+
+    {% endif %}
+    {% empty %}
+    <p>No Comments!</p>
+
+    {% endfor %}
+</div>
+
+
+{% endblock %}
