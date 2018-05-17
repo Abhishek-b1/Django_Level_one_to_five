@@ -19,5 +19,11 @@ from simplesocial import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.HomePage.as_view(), name='home')
+    url(r'^$', views.HomePage.as_view(), name='home'),
+    url(r'^accounts/', include('accounts.urls', namespace='accounts')),
+    # connecting the accounts main space to accounts.urls, if someone login or signup that connects directly to urls.py
+    # file in the accounts application.
+    url(r'^accounts/', include('django.contrib.auth.urls')), # django.contrib.urls allows everything that django has
+    # under the hood for authorization
+
 ]
