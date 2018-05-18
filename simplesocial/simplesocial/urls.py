@@ -23,7 +23,12 @@ urlpatterns = [
     url(r'^accounts/', include('accounts.urls', namespace='accounts')),
     # connecting the accounts main space to accounts.urls, if someone login or signup that connects directly to urls.py
     # file in the accounts application.
-    url(r'^accounts/', include('django.contrib.auth.urls')), # django.contrib.urls allows everything that django has
+    url(r'^accounts/', include('django.contrib.auth.urls')),  # django.contrib.urls allows everything that django has
     # under the hood for authorization
+    url(r'^test/$', views.TestPage.as_view(), name='test'),
+    url(r'^thanks/$', views.ThanksPage.as_view(), name='thanks'),
+    url(r'^posts/', include('posts.urls', namespace='posts')),
+    url(r'^groups/', include('groups.urls', namespace='groups')),
+
 
 ]

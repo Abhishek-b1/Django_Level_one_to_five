@@ -5,7 +5,7 @@ from django.core.urlresolvers import reverse
 from django.conf import settings
 
 import misaka
-import groups.models import Group
+from groups.models import Group
 
 # Create your models here.
 # This is the posts models.py file
@@ -23,7 +23,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.message
-    
+
     def save(self, *args, **kwargs):
         self.message_html = misaka.html(self.message)
         super(Post, self).save(*args, **kwargs)
